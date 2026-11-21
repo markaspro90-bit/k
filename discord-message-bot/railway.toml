@@ -1,0 +1,6 @@
+[build]
+builder = "RAILPACK"
+
+[deploy]
+startCommand = "python -u bot.py"
+restartPolicyType = "ON_FAILURE"
